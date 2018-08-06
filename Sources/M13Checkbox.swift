@@ -22,12 +22,12 @@ public class M13Checkbox: UIControl {
     //----------------------------
     
     /**
-     The possible states the check can be in.
-     
-     - Unchecked: No check is shown.
-     - Checked: A checkmark is shown.
-     - Mixed: A dash is shown.
-     */
+    The possible states the check can be in.
+    
+    - Unchecked: No check is shown.
+    - Checked: A checkmark is shown.
+    - Mixed: A dash is shown.
+    */
     public enum CheckState: String, RawRepresentable {
         /// No check is shown.
         case unchecked = "Unchecked"
